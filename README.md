@@ -49,4 +49,4 @@ If you have any feedback or suggestions, please open an issue. We're always look
 This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact
-Please reach out to me at [LinkedIn](https://www.linkedin.com/in/david-chenn/)
+Please reach out to me on [LinkedIn](https://www.linkedin.com/in/david-chenn/). Thanks!
