@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Hub</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            width: 70vh;
+            height: auto;
+            background-color: #d8d8da;
+            font-family: 'Roboto', sans-serif;
+            color: #14011a;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for the header */
+        h1 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        /* General button styling */
+        button {
+            display: flex;
+            width: auto;
+            min-width: 60px;
+            max-width: 60px;
+            height: auto;
+            background-color: #0fd8ff;
+            border: none;
+            padding: 7px 7px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #1a1a1a;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 3vh;
+            white-space: normal;
+            line-break: anywhere;
+            text-align: center;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: #00c0ec;
+        }
+
+        /* Styling for links */
+        a {
+            font-size: 12px;
+            color: #73d4e7;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for template rows */
+        .template-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+            max-width: 200px;
+            white-space: normal;
+        }
+
+        /* Styling for delete buttons */
+        .delete-button {
+            opacity: 0.5;
+            width: 40px;
+            height: 20px;
+            transition: opacity 0.3s ease-in-out;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prompt Hub</h1>
+    <div id="button-container">
+        <!-- Button to add by option -->
+        <div id="add-by-option-button">
+            <button>Add by Option</button>
+        </div>
+        <!-- Button to add by user input -->
+        <div id="add-by-user-input-button">
+            <button>Add by Input</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

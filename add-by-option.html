@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Template</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <label for="template-title">Title of the template</label>
+    <input type="text" id="template-title">
+    <label for="template-role">Role of GPT</label>
+    <textarea id="template-role"></textarea>
+    <label for="template-task">Task</label>
+    <textarea id="template-task"></textarea>
+    <label for="template-tone">Tone</label>
+    <textarea id="template-tone"></textarea>
+    <label for="template-format">Format</label>
+    <textarea id="template-format"></textarea>
+    <label for="template-input">Input text</label>
+    <textarea id="template-input"></textarea>
+    <button id="save-template-button">Save Template</button>
+
+    <script src="add-by-option.js"></script>
+</body>
+</html>
